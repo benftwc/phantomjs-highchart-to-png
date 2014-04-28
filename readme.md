@@ -6,6 +6,8 @@ The file highcharts-convert.js is a [PhantomJS](http://phantomjs.org/) script to
 #Example usage#
 With PhantomJS
 	phantomjs highcharts-convert.js -infile options1.json -outfile chart1.png -scale 2.5 -width 300 -constr Chart -callback callback.js
+	
+	
 With PHP Script
 	Edit phpGen.php (first parameters) and then do 
 	php phpGen.php
